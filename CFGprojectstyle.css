@@ -1,0 +1,245 @@
+* {
+    font-family: "Josefin Slab";
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px; 
+    margin: 10px 50px 5px 50px;
+    
+          }
+  
+  .grid-item {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 2px;
+    height: 200px;
+    width: 200px;
+  }
+  
+  html, body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header {
+    position: fixed;
+    top: 0%;
+    background-color: hsla(337, 23%, 90%, 0.9);
+    width: 100%;
+    margin: 0px;
+    height: 125px;
+    overflow: auto;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  
+  header h1 {
+    font-size: 50px;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  header a {
+    font-size: 150%;
+    padding: 20px;
+  }
+  
+  #basketImg {
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    height: 50px;
+  }
+  
+  #basketNumber {
+    position: fixed;
+    top: 20px;
+    right: 35px;
+  }
+  
+  #emptyBasket {
+     background-color: hsla(337, 23%, 90%, 1);
+    border: 2px solid white;
+    border-top: none;
+    display: none;
+    position: fixed;
+    margin: 0px;
+    padding: 10px;
+    top: 70px;
+    right: 0px;
+  }
+  
+  #basketTable {
+    background-color: hsla(337, 23%, 90%, 1);
+    display: none;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 70px;
+    right: 0px;
+  }
+  
+  th, td {
+    border-bottom: 1px solid white;
+    text-align: left;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  #firstGrid {
+    margin-top: 135px;
+  }
+  
+  .grid-item img {
+    height: 95%;
+    allign: left;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  .itemDescription {
+    font-size: 110%;
+    position: relative;
+    display: inline;
+    padding: 5px;
+    white-space: nowrap;
+  }
+  
+  .itemPrice {
+    font-size: 110%;
+    position: relative;
+    left: 30px;
+    display: inline;
+    white-space: nowrap;
+  }
+  
+  .addToBasket {
+    position: absolute;
+    bottom: 175px;
+    left: 120px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: hsla(337, 23%, 90%, 0.9);
+    opacity: 0.6; 
+  }
+  
+  .addToBasket:hover {
+     cursor: pointer;
+     opacity: 1;
+     transform: scale(1.2);
+   }
+  
+  
+  #loadButton {
+    border-radius: 15px;
+    height: 30px;
+    width: 150px;
+    margin: 10px;
+    position: relative;
+    left: 42.5%;
+  }
+  
+  #secondGrid {
+    display: none;
+    margin-bottom: 90px;
+  }
+  
+  footer {
+    background-color: hsla(337, 23%, 90%, 0.9);
+    padding-top: 10px 0;
+    margin: 0px;
+    height: 110px;
+    width: 100%;
+    bottom: 0%;
+  }
+  
+  footer a {
+    display: flex;
+    padding: 4px;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+  
+  #instagram { 
+    mix-blend-mode: darken;
+    left: 190px;
+    height: 20px;
+  }
+  
+  #facebook {
+    mix-blend-mode: darken;
+    left: 210px;
+    height: 25px;
+  }
+  
+  #twitter {
+    mix-blend-mode: darken;
+    left: 232px;
+    height: 20px;
+  }
+  
+  #tiktok {
+    mix-blend-mode: darken;
+    left: 260px;
+    height: 20px;
+  }
+  
+  #newsletterPopup {
+   display: none;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: hsla(337, 23%, 90%, 0.9);
+   padding: 20px;
+   color: rgb(0, 0, 0);
+   text-align: center;
+  }
+  
+  input[type="text"], input[type="email"] {
+   margin: 10px 0;
+   padding: 5px;
+    border: 1px solid black;
+  }
+  
+  #cross {
+    height: 20px;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+  }
+  
+  #form {
+    display: block;
+    bottom: 15px;
+    right: 10px;
+  }
+  
+  #subscribeP {
+    bottom: 40px;
+    right: 210px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #subscribeButton {
+    border-radius: 15px;
+    height: 30px;
+  }
+  
+  #thankyouParagraph {
+    font-size: 20px;
+  }

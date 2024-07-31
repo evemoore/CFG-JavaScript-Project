@@ -1,0 +1,234 @@
+<html <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="CFGprojectstyle.css">
+  <script src="CFGproject.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>CFG Shop</h1>
+    <a>New in</a>
+    <a>Clothes</a>
+    <a>Dresses</a>
+    <a>Shoes</a>
+    <a>Accessories</a>
+    <a>Beauty</a>
+    <a>Home</a>
+    <div> <!-- creating a basket,-->
+      <img id="basketImg" src="https://icon-library.com/images/shopping-bag-icon-png/shopping-bag-icon-png-0.jpg">
+      <p id="basketNumber"></p>
+      <p id="emptyBasket">Your basket is empty!</p>
+      <table id="basketTable">
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </table>
+    </div>
+  </header>
+ 
+  <div class="grid-container" id="firstGrid">
+    <div id="grid1" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991105489504_02?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description1" class="itemDescription">Distressed jeans</p>
+      <p id="price1" class="itemPrice">$18</p>
+      <button id="button1" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid2"class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991099551305_05?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description2" class="itemDescription">Prairie midi dress</p>
+      <p id="price2" class="itemPrice">$25</p>
+      <button id="button2" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid3" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991105913528_02?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description3" class="itemDescription">Wide leg trousers</p>
+      <p id="price3" class="itemPrice">$14</p>
+      <button id="button3" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid4" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991113249416_01?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description4" class="itemDescription">Trolley cabin bag</p>
+      <p id="price4" class="itemPrice">$25</p>
+      <button id="button4" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid5" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991105592306_02?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description5" class="itemDescription">Hello Kitty t-shirt</p>
+      <p id="price5" class="itemPrice">$10</p>
+      <button id="button5" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid6" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991092020606_02?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description6" class="itemDescription">Double strap sandals</p>
+      <p id="price6" class="itemPrice">$8</p>
+      <button id="button6" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid7" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991096519116_02?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description7" class="itemDescription">Striped trousers</p>
+      <p id="price7" class="itemPrice">$18</p>
+      <button id="button7" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid8" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991106278716_05?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description8" class="itemDescription">Harvard sweatshirt</p>
+      <p id="price8" class="itemPrice">$18</p>
+      <button id="button8" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid9" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991104443610_02?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description9" class="itemDescription">Suede clogs</p>
+      <p id="price9" class="itemPrice">$22</p>
+      <button id="button9" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid10" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991107903416_01?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description10" class="itemDescription">Ribbed socks</p>
+      <p id="price10" class="itemPrice">$4</p>
+      <button id="button10" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid11" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991113756352_01?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description11" class="itemDescription">Patterned dress</p>
+      <p id="price11" class="itemPrice">$26</p>
+      <button id="button11" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div id="grid12" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991107575510_02?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description12" class="itemDescription">Denim maxi skirt</p>
+      <p id="price12" class="itemPrice">$20</p>
+      <button id="button12" class="addToBasket">Add to basket</button>
+    </div>
+  </div>
+    
+  <button id="loadButton">Load more</button>
+     
+  <div class="grid-container" id="secondGrid">
+    <div id="grid13" class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991105124414_01?$articleimages-regulardesktop$&fmt=auto">
+      <p id="description13" class="itemDescription">Long-sleeve pyjamas</p>
+      <p id="price13" class="itemPrice">$15</p>
+      <button id="button13" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991112662352_05?$articleimages-regulardesktop$&fmt=auto"/>
+      <p id="description14" class="itemDescription">Sweatshirt</p>
+      <p id="price14" class="itemPrice">$34</p>
+      <button id="button14" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991095616306_05?$articleimages-regulardesktop$&fmt=auto"/>
+      <p id="description15" class="itemDescription">T-Shirt</p>
+      <p id="price15" class="itemPrice">$6</p>
+      <button id="button15" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991081723804_05?$articleimages-regulardesktop$&fmt=auto"/>
+      <p id="description16" class="itemDescription">Fleece Jumper</p>
+      <p id="price16" class="itemPrice">$7</p>
+      <button id="button16" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991072614804_05?$articleimages-regulardesktop$&fmt=auto"/>
+<p id="description17" class="itemDescription">Crop Top</p>
+      <p id="price17" class="itemPrice">$6</p>
+      <button id="button17" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991106508804_01?$articleimages-regulardesktop$&fmt=auto"/>
+<p id="description18" class="itemDescription">Blouse</p>
+      <p id="price18" class="itemPrice">$15</p>
+      <button id="button18" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991106022208_01?$articleimages-largedesktop$&fmt=auto"/>
+<p id="description19" class="itemDescription">Arm Cuff</p>
+      <p id="price19" class="itemPrice">$5</p>
+      <button id="button19" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991107719118_05?$articleimages-largedesktop$&fmt=auto"/>
+      <p id="description20" class="itemDescription">Cardigan</p>
+      <p id="price20" class="itemPrice">$20</p>
+      <button id="button20" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991106913616_01?$articleimages-largedesktop$&fmt=auto"/>
+      <p id="description21" class="itemDescription">Shoulder Bag</p>
+      <p id="price21" class="itemPrice">$30</p>
+      <button id="button21" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991106541002_05?$articleimages-largedesktop$&fmt=auto"/>
+      <p id="description22" class="itemDescription">Mini Dress</p>
+      <p id="price22" class="itemPrice">$15</p>
+      <button id="button22" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991106183006_05?$articleimages-largedesktop$&fmt=auto"/>
+      <p id="description23" class="itemDescription">Vest</p>
+      <p id="price23" class="itemPrice">$8</p>
+      <button id="button23" class="addToBasket">Add to basket</button>
+    </div>
+    
+    <div class="grid-item">
+      <img src="https://cdn.media.amplience.net/i/primark/991107501504_05?$articleimages-largedesktop$&fmt=auto"/>
+      <p id="description24" class="itemDescription">Midi Skirt</p>
+      <p id="price24" class="itemPrice">$18</p>
+      <button id="button24" class="addToBasket">Add to basket</button>
+    </div>
+  </div>
+    
+  <div id="newsletterPopup">
+    <img id="cross" src="https://icon-library.com/images/x-png-icon/x-png-icon-25.jpg">
+    <p id="subscribeP">Subscribe to our newsletter to get a 10% discount!</p>
+    <form id="subscribeForm">
+      <input type="text" id="firstName" placeholder="First name..." />
+      <input type="text" id="lastName" placeholder="Last name..." />
+      <input type="email" id="email" placeholder="Email..." />
+      <button id="subscribeButton">Subscribe</button>
+    </form>
+  </div>
+    
+  <footer>
+    <a class="footerA">FAQ</a>
+    <a class="footerA">Contact us</a>
+    <a class="footerA">Privacy and legal</a>
+    <div class="social-media">
+      <a class="footerA">Follow us on social media:</a>
+      <img id="instagram" src="https://clipground.com/images/black-instagram-logo-clipart-2.jpg"> 
+      <img id="facebook" src="https://th.bing.com/th/id/R.0420ae84f341d760f4828dd1d120e243?rik=kssrUv4Iz0ky0Q&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2ffacebook-transparent-icon%2ffacebook-transparent-icon-5.png&ehk=AXPLwnpDONq7Ftp6NI5VWWKd6qrmi7EEIqCZW7%2br8QE%3d&risl=&pid=ImgRaw&r=0">
+      <img id="twitter" src="https://i.pinimg.com/736x/f8/5a/4f/f85a4f6ffc85806481baba8577c85501.jpg"> 
+      <img id="tiktok" src="https://image.similarpng.com/thumbnail/2021/01/Tiktok-icon-design-on-transparent-background-PNG.png">
+    </div>
+  </footer>
+</body>
+</html>
